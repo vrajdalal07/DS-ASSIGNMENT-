@@ -1,0 +1,26 @@
+IMPORT COLLECTIONS
+
+import collections
+
+DoubleEnded = collections.deque(["one ","five","ten"])
+print (DoubleEnded);
+
+
+print("Adding to the left: ")
+DoubleEnded.append("zero")
+print (DoubleEnded);
+
+
+print("Adding to the right: ")
+DoubleEnded.appendleft("four")
+print (DoubleEnded);
+
+
+print("Removing from the left: ")
+DoubleEnded.pop()
+print (DoubleEnded);
+
+
+print("Removing from the right: ")
+DoubleEnded.popleft()
+print (DoubleEnded);
